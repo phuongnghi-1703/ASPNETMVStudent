@@ -26,5 +26,9 @@ namespace StudentsApp
         }
     
         public virtual DbSet<tblStudent> tblStudents { get; set; }
+        public virtual DbSet<Cours> Courses { get; set; }
+        public virtual DbSet<Department> Departments { get; set; }
+        public virtual DbSet<Enrollment> Enrollments { get; set; }
+        public virtual DbSet<Instructor> Instructors { get; set; }
     }
 }

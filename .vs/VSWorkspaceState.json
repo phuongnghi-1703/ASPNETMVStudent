@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StudentsApp",
+    "\\StudentsApp\\StudentsApp",
+    "\\StudentsApp\\StudentsApp\\Views",
+    "\\StudentsApp\\StudentsApp\\Views\\Students"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\StudentsApp\\StudentsApp\\Views\\Students\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

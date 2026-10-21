@@ -6,6 +6,13 @@
     <edmx:Diagrams>
       <Diagram DiagramId="c1e6803757d34c099e1347ebd6239211" Name="Diagram1">
         <EntityTypeShape EntityType="StudentsDBModel.tblStudent" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentsDBModel.Cours" Width="1.5" PointX="6" PointY="0.875" />
+        <EntityTypeShape EntityType="StudentsDBModel.Department" Width="1.5" PointX="3.75" PointY="1" />
+        <EntityTypeShape EntityType="StudentsDBModel.Enrollment" Width="1.5" PointX="8.25" PointY="0.875" />
+        <EntityTypeShape EntityType="StudentsDBModel.Instructor" Width="1.5" PointX="0.75" PointY="3.75" />
+        <AssociationConnector Association="StudentsDBModel.FK__Courses__Departm__3B75D760" />
+        <AssociationConnector Association="StudentsDBModel.FK__Enrollmen__Cours__403A8C7D" />
+        <AssociationConnector Association="StudentsDBModel.FK__Enrollmen__Stude__412EB0B6" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
